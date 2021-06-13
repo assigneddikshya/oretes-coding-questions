@@ -11,7 +11,8 @@ def convert24(str1):
     else:
         return str(int(str1[:2])+12)+str1[2:8]
 if __name__ == "__main__":
-    print(convert24("08:55:48 PM"))
+    str1 = str(input())
+    print(convert24(str1))
 
 # 2. John and Sean went to a shop to buy chocolates. John doesn't buy the 
 # chocolates that Sean does. Consider there are N no. of chocolates & 
@@ -183,37 +184,33 @@ word_count(lst)
 
 import numpy as np
 if __name__ == "__main__":
-    #get the book-attribute(R-C) matrix
-    N = int(input("Enter the number of books:"))
-    C = int(input("Enter the number of attributes:"))
+    # A basic code for matrix input from user
 
-def func4(N,C):
+    R = int(input("Enter the number of rows:"))
+    C = int(input("Enter the number of columns:"))
+
     # Initialize matrix
     matrix = []
     print("Enter the entries rowwise:")
 
     # For user input
-    for i in range(N):          # A for loop for row entries
+    for i in range(R):          # A for loop for row entries
         a =[]
         for j in range(C):      # A for loop for column entries
              a.append(int(input()))
         matrix.append(a)
-
+  
     # For printing the matrix
-    for i in range(N):
+    for i in range(R):
         for j in range(C):
             print(matrix[i][j], end = " ")
         print()
 
-#function to sort the matrix by a given attributes
-def func5(matrix):
-    a = np.array(matrix)
-    i=int(input("Enter the attribute no. you want sort by: ")) - 1
-    print(a[a[:,i].argsort()])
-    print(a[a[:,i].argsort()])
+    #sort by 1st column
+    i=int(input())-1
+    a[a[:, i].argsort()]
 
-func4(N,C)
-func5(matrix)
+
 
 # 6. You are given a sentence containing alphabets, numbers, symbols&spaces.
 # Your task is to sort the string in the following order and each separated by space:
