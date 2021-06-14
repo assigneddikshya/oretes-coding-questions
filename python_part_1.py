@@ -210,7 +210,7 @@ def func5(matrix):
     a = np.array(matrix)
     i=int(input("Enter the attribute no. you want sort by: ")) - 1
     print(a[a[:,i].argsort()])
-    print(a[a[:,i].argsort()])
+    
 
 func4(N,C)
 func5(matrix)
