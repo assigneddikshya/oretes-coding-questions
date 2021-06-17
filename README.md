@@ -1,7 +1,8 @@
 bonobo SETUP
 --------------
-I.Get a virtual environment set up. "python -m venv venv_name" in the desired file location. 
-   ->Activate the venv using command "venv_name\Scripts\activate.bat"
+I.Get a virtual environment set up. 
+        i. "python -m venv venv_name" in the desired file location. 
+        ii. Activate the venv using command "venv_name\Scripts\activate.bat"
 II. Download and graphviz software, put it into path for current user / install it as "pip install graphviz"
 III. Install the packages listed in requirements.txt.
 *Most important ones bonobo, pydotplus(to visualize ETL graphs).
