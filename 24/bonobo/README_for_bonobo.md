@@ -13,3 +13,4 @@ BONOBO FILES
     To visualize graph, Run "bonobo inspect --graph code_file.py | dot -Tpng -o name_of_graph.png" 
 2. my-etl.py has a simple yield function to visualize.
 3. bonobo_for_json_doc_ETL.py has a function to retrieve the contents of a json file in JSON format into a txt file, and then visualizing the ETL graph.
+   * The code will download the JSON file from the API_url specified.
