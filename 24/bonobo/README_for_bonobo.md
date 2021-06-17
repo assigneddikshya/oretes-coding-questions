@@ -14,3 +14,12 @@ BONOBO FILES
 2. my-etl.py has a simple yield function to visualize.
 3. bonobo_for_json_doc_ETL.py has a function to retrieve the contents of a json file in JSON format into a txt file, and then visualizing the ETL graph.
    * The code will download the JSON file from the API_url specified.
+
+PNG files
+------------
+1. my-etl.png is the basic graph for ETL.
+2. json_script_ETL.png is the graph for the ETL of the json doc
+
+Dot file
+---------
+* The dot file is the raw dot file for the my-etl graph.
