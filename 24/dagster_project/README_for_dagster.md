@@ -1,7 +1,7 @@
 Dagster setup
 ---------------
 1. Create a virtual environment using "python -m venv venv_name"; activate it using "venv_name\Scripts\activate.bat" in the same directory.
-2. Install the packages listed in requirements.txt in the venv.
+2. Install the packages listed in requirements.txt in the venv. Run "pip install dagster dagit requests"
 You are set for a dagster pipeline project.
 
 Dagster pipelines
